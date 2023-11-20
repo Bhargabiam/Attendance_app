@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200;500;600;800&display=swap');
+
+.user{
+    height: 280px;
+    border-radius: 10px;
+    background: #F6F1EE;
+    color: #45474B;
+}
+.user h1{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.user p{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 5px;
+}
+.user img{
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.user button{
+    border-radius: 50%;
+    background: #F6F1EE;
+    border: #F6F1EE solid;
+
+}
+.user > .present {
+    border: #495E57 solid 2px;
+    color: #495E57;
+    font-size: 1.25rem;
+}
+.user > .present:hover {
+    border: #495E57 solid 2px;
+    background: #495E57;
+    color: #F6F1EE;
+}
+.user > .present:disabled {
+    background: #556d65;
+    color: #F6F1EE;
+}
+
+.user > .present:active {
+    background: #5f7870 !important;
+    color: #F6F1EE !important;
+}
+
+.user > .absent {
+    border: #CE5A67 solid 2px;
+    color: #CE5A67;
+    font-size: 1.25rem;
+}
+.user > .absent:hover {
+    background: #CE5A67;
+    color: #F5F7F8;
+}
+
+.user > span{
+    margin-bottom: 10px;
+}
+
+.new-user{
+    text-transform: uppercase;
+    border: 2px dashed black;
+}
+.new-user > button{
+    margin: 25%;
+    padding: 10px 20px;
+    font-size: 2rem !important;
+}
+
+.new-user > i{
+    height: 200px;
+    width: 200px;
+}
+
+.formimg {
+    height: 200px !important;
+    object-fit: cover;
+    opacity: 0.8;
+}
+
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 767px) and (max-width: 1399px) {
+    .user button{
+        margin-top: 0;
+    }
+    .user h1{
+        font-size: 1rem;
+    }
+
+    .new-user > button{
+        margin: 25%;
+    }
+}
